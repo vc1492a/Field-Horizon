@@ -1,5 +1,5 @@
 ## Field Horizon
-The sun is our most precious resource. It's also a resource most of us take for granted. 4.6 billion years old, our sun has seeded our world with life by providing light and heat for everything on Earth. Our sun also showers our world with bursts of color, day after day, year after year. On Monday, October 3rd 2016, students from the School of the Art Institute of Chicago and Northwestern University came together to record color and luminosity of the sunrise from five locations on the Chicago lake shore. This project is a representation of what we saw that day. 
+The sun is our most precious resource. It's also a resource most of us take for granted. 4.6 billion years old, our sun has seeded our world with life by providing light and heat for everything on Earth. Our sun also showers our world with bursts of color, day after day, year after year. On Monday, October 3rd 2016, students from the School of the Art Institute of Chicago and Northwestern University came together to record color and luminosity of the sunrise from five locations on the Chicago lake shore. This project is a representation of what we saw that day, and can be viewed [here](https://vc1492a.github.io/Field-Horizon/). 
 
 ### Chicago Sunrise Data
 
