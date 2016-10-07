@@ -3,11 +3,11 @@ The sun is our most precious resource. It's also a resource most of us take for 
 
 ### Chicago Sunrise Data
 
-This project was designed and inspired by a dataset that contains colors and brightness levels recorded during a sunrise in Chicago on October 3rd, 2016. Brightness was recorded as luminosity (lux), with the colors of the sky and the water recorded as RGB values. Color names are also included for a large portion of the dataset. The dataset was collected as part of a joint class between the School of the Art Institute of Chicago and Northwestern University called Data as Art. The dataset is available [from this Github repository](https://github.com/vc1492a/Chicago-Sunrise-Data).
+This project was designed and inspired by a dataset that contains colors and brightness levels recorded during a sunrise in Chicago on October 3rd, 2016. Brightness was recorded as luminosity (lux), with the colors of the sky and the water recorded as RGB values. Color names are also included for a large portion of the dataset. The dataset was collected as part of a joint class between the School of the Art Institute of Chicago and Northwestern University called Data as Art, and is available [from this Github repository](https://github.com/vc1492a/Chicago-Sunrise-Data).
 
 
 ### Artists and Authors
 This is a collaborative piece between [Valentino Constantinou](https://www.valentino.io/), [Joyce Lee](https://joycesafelee.squarespace.com/), Jennifer Shen, and Kay Slater.
 
 ### Device Compatibility
-This website and demonstration was built in the span of a few hours and is likely not to work well on a broad range of devices at this point. However, it's a work in progress. 
+This website and demonstration was built in the span of a few hours and is likely not to work well on a broad range of devices at this point. It's a work in progress. 
