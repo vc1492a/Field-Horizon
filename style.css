@@ -1,0 +1,522 @@
+body {
+    position: relative;
+    font-family: 'Crimson Text', serif;
+    background: -webkit-linear-gradient(rgb(122, 134, 132), rgb(124, 161, 152)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgb(122, 134, 132), rgb(124, 161, 152)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgb(122, 134, 132), rgb(124, 161, 152)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgb(122, 134, 132), rgb(124, 161, 152)); /* Standard syntax */
+    min-height: 100vh;
+	overflow-y: hidden;
+}
+
+.hr {
+  border:none;
+  border-top: 2px dotted #d8d8d8;
+  color: #fff;
+  height: 2px;
+  width: 35%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+h1 {
+    font-family: 'Julius Sans One', sans-serif;
+	text-align: center;
+	color: #f8f8f8;
+	font-size: 2.2em;
+}
+
+.intro-container {
+	position: fixed;
+	z-index: 10;
+	top: 20%;
+	margin-left: auto;
+	/* this margin hides the scrollbar on firefox */
+	margin-right: -15px !important;
+	height: 65%;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+.two-container {
+	position: fixed;
+	z-index: 9;
+	top: 20%;
+	margin-left: auto;
+	/* this margin hides the scrollbar on firefox */
+	margin-right: -15px !important;
+	height: 65%;
+	overflow-y: scroll;
+	opacity: 0;
+}
+
+.two-container-background {
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	background: linear-gradient(rgb(154, 156, 154), rgb(154, 148, 135)); /* Standard syntax */
+	min-height: 100vh;
+	width: 100%;
+	opacity: 0;
+}
+
+.three-container {
+	position: fixed;
+	z-index: 8;
+	top: 20%;
+	margin-left: auto;
+	/* this margin hides the scrollbar on firefox */
+	margin-right: -15px !important;
+	height: 65%;
+	overflow-y: scroll;
+	opacity: 0;
+}
+
+.three-container-background {
+	position: fixed;
+	z-index: 2;
+	top: 0;
+	background: linear-gradient(rgb(239, 140, 125), rgb(129, 138, 136)); /* Standard syntax */
+	min-height: 100vh;
+	width: 100%;
+	opacity: 0;
+}
+
+.four-container {
+	position: fixed;
+	z-index: 7;
+	top: 20%;
+	margin-left: auto;
+	/* this margin hides the scrollbar on firefox */
+	margin-right: -15px !important;
+	height: 65%;
+	overflow-y: scroll;
+	opacity: 0;
+}
+
+.four-container-background {
+	position: fixed;
+	z-index: 3;
+	top: 0;
+	background: linear-gradient(rgb(248, 200, 166), rgb(97, 117, 121)); /* Standard syntax */
+	min-height: 100vh;
+	width: 100%;
+	opacity: 0;
+}
+
+.five-container {
+	position: fixed;
+	z-index: 7;
+	width: 101%;
+	/* this margin hides the scrollbar on firefox */
+	margin-right: -15px !important;
+	height: 80%;
+	overflow-y: scroll;
+	margin-left: auto;
+	opacity: 0;
+}
+
+.black-film {
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	position: fixed;
+	z-index: 20;
+}
+
+.five-container-background {
+	position: fixed;
+	z-index: 4;
+	width: 100%;
+	margin: 0 auto;
+	opacity: 0;
+}
+
+.text {
+	font-family: 'Crimson Text', serif;
+	text-align: center;
+	width: 40%;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: #D8D8D8;
+	font-size: 20px;
+	//max-height: 400px;
+	//overflow-y: scroll;
+	line-height: 35px;
+}
+
+/* this hides the scrollbar on webkit browsers like Chrome and Safari */
+::-webkit-scrollbar {
+	display: none;
+}
+
+.call-to-action {
+    font-family: 'Julius Sans One', sans-serif;
+    display: table;
+	text-decoration: none;
+	text-align: center;
+	color: #f8f8f8;
+	background-color: rgb(229, 129, 121);
+	transition: background-color 0.5s ease;
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 15px;
+}
+
+.call-to-action:hover {
+    background-color: rgb(242, 184, 149);
+}
+
+.controls {
+    color: #f8f8f8;
+    text-align: right;
+    font-size: 1.5em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+	z-index: 20;
+}
+
+.signature {
+    font-family: 'Crimson Text', serif;
+	font-size: 1em;
+	font-style: italic;
+	text-align: left;
+	color: #f8f8f8;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+	z-index: 21;
+}
+
+.time {
+	font-family: 'Julius Sans One', sans-serif;
+	font-size: 0.9em;
+	text-align: center;
+	color: #f8f8f8;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	z-index: 22;
+}
+
+i {
+    margin: 3px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+.row {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.row-centered {
+	text-align: center;
+}
+
+.column-5 {
+	color: white;
+	flex-grow: 1;
+	text-align: center;
+	padding: 20px;
+	height: 85px;
+	display: inline-block;
+	vertical-align: top;
+	width: 85px;
+}
+
+.nomad{
+	background-color: rgb(161,152,137);
+}
+
+.heathered-gray{
+	background-color: rgb(147,143,132);
+}
+
+.schooner{
+	background-color: rgb(140, 134, 121);
+}
+
+.friar-gray{
+	background-color: rgb(133, 130, 122);
+}
+
+.tapa{
+	background-color: rgb(122,123,116);
+}
+
+.dove-gray{
+	background-color: rgb(121,120,114);
+}
+
+.dawn{
+	background-color: rgb(154,150,141);
+}
+
+.concord{
+	background-color: rgb(131,128,121);
+}
+
+.jumbo{
+	background-color: rgb(141,142,135);
+}
+
+.lemon-grass{
+	background-color: rgb(147,147,138);
+}
+
+.stack{
+	background-color: rgb(137,141,135);
+}
+
+.gunsmoke{
+	background-color: rgb(130,133,127);
+}
+
+.delta{
+	background-color: rgb(146,148,143);
+}
+
+.pale-sky{
+	background-color: rgb(93,109,111);
+}
+
+.rolling-stone{
+	background-color: rgb(115,122,120);
+}
+
+.spanish-green{
+	background-color: rgb(124,128,122);
+}
+
+.oslo-gray{
+	background-color: rgb(120,128,127);
+}
+
+.pewter{
+	background-color: rgb(139,148,142);
+}
+
+.ash{
+	background-color: rgb(193,187,167);
+}
+
+.regent-gray{
+	background-color: rgb(118,131,131);
+}
+
+.blue-bayoux{
+	background-color: rgb(109,122,125);
+}
+
+.hoki{
+	background-color: rgb(105,128,131);
+}
+
+.gray{
+	background-color: rgb(122,134,132);
+}
+
+.snow{
+	background-color: rgb(255,255,248);
+}
+
+.bright-white{
+	background-color: rgb(255,255,254);
+}
+
+.bone{
+	background-color: rgb(224,211,190);
+}
+
+.pastel-gray{
+	background-color: rgb(211,205,189);
+}
+
+.pale-silver{
+	background-color: rgb(196,193,180);
+}
+
+.light-gray{
+	background-color: rgb(170,172,170);
+}
+
+.almond{
+	background-color: rgb(241,229,206);
+}
+
+
+.manatee{
+	background-color: rgb(148,154,158);
+}
+
+.pearl{
+	background-color: rgb(234,217,192);
+}
+
+.pale-chestnut{
+	background-color: rgb(209,188,167);
+}
+
+.cinereous{
+	background-color: rgb(148,137,128);
+}
+
+.gray-muave{
+	background-color: rgb(137,116,116);
+}
+
+.old-lavender{
+	background-color: rgb(125,113,113);
+}
+
+.taupe-gray{
+	background-color: rgb(139,126,131);
+}
+
+.medium-gray{
+	background-color: rgb(136,127,130);
+}
+
+.medium-gray{
+	background-color: rgb(136,127,130);
+}
+
+.baby-pink{
+	background-color: rgb(245,202,189);
+}
+
+.rose-gray{
+	background-color: rgb(168,130,133);
+}
+
+.ruddy-pink{
+	background-color: rgb(213,139,140);
+}
+
+.peach-orange{
+	background-color: rgb(246,181,156);
+}
+
+.pale-chestnut{
+	background-color: rgb(230,171,161);
+}
+
+.light-coral{
+	background-color: rgb(245,139,136);
+}
+
+.old-rose{
+	background-color: rgb(204,134,132);
+}
+
+.vivid-tangerine{
+	background-color: rgb(148,166,144);
+}
+
+.mauvelous{
+	background-color: rgb(241,172,160);
+}
+
+.dark-salmon{
+	background-color: rgb(239,140,125);
+}
+
+.wheat{
+	background-color: rgb(239,210,189);
+}
+
+.light-salmon-pink{
+	background-color: rgb(250,162,148);
+}
+
+.antique-white{
+	background-color: rgb(253,227,211);
+}
+
+#melon{
+	background-color: rgb(251,197,180);
+}
+
+.coral-pink{
+	background-color: rgb(247,134,127);
+}
+
+.peach-puff{
+	background-color: rgb(253,209,189);
+}
+
+.ruddy-pink{
+	background-color: rgb(227,138,137);
+}
+
+.dim-gray{
+	background-color: rgb(104,105,112);
+}
+
+.gray-muave{
+	background-color: rgb(145,116,120);
+}
+
+.rose-gold{
+	background-color: rgb(189,118,119);
+}
+
+.desert-sand{
+	background-color: rgb(242,199,170);
+}
+
+.copper-rose{
+	background-color: rgb(159,110,111);
+}
+
+.fuzzy-wuzzy{
+	background-color: rgb(206,111,108);
+}
+
+.bisque{
+	background-color: rgb(252,225,196);
+}
+
+.apricot{
+	background-color: rgb(245,209,180);
+}
+
+.pearl{
+	background-color: rgb(239,227,200);
+}
+
+.rose-quartz{
+	background-color: rgb(172,154,157);
+}
+
+.deep-peach{
+	background-color: rgb(249,195,164);
+}
+
+.pale-gold{
+	background-color: rgb(242,184,149);
+}
+
+.tumbleweed{
+	background-color: rgb(228,172,147);
+}
